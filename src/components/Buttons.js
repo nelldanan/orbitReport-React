@@ -12,7 +12,7 @@ function Buttons({ filterByType, setSat, displaySats }) {
                </button>
             );
          })}
-         <button onClick={() => setSat(satData)}>Show All Satellites</button>
+         <button onClick={() => setSat(satData)}>All Orbits</button>
       </div>
    );
 }
